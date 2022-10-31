@@ -1,0 +1,28 @@
+.chatbot__container {
+  background-color: #ccc;
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 350px;
+  padding: 16px;
+}
+
+.chatbot__container_chat {
+  background-color: #f3f0f0;
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.chatbot__input {
+  border:none;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.chatbot__input:disabled {
+  background-color: #d5d3d3;
+}
